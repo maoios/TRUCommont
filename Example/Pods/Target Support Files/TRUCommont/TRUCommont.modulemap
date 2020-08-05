@@ -1,0 +1,6 @@
+framework module TRUCommont {
+  umbrella header "TRUCommont-umbrella.h"
+
+  export *
+  module * { export * }
+}

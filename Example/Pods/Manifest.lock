@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TRUCommont (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TRUCommont (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TRUCommont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TRUCommont: f136a4623bfcffe2d3dd1429e86bf039f4edc724
+
+PODFILE CHECKSUM: 4addddde2e17245bd56f5e32fb8b7c2db031fe65
+
+COCOAPODS: 1.8.4

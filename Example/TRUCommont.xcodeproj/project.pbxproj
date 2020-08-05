@@ -40,7 +40,7 @@
 		23504960EE2D5DCBD92FF778 /* Pods-TRUCommont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRUCommont_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TRUCommont_Tests/Pods-TRUCommont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F42C749E303CD1A62EC64A0 /* Pods_TRUCommont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRUCommont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC1E96B1F7E86C5797187FE /* Pods_TRUCommont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRUCommont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52397A37AC342EA364D1FB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		52397A37AC342EA364D1FB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TRUCommont_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRUCommont_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +59,14 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		6024C70EC01832B4FCAC0A6D /* TRUCommont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TRUCommont.podspec; path = ../TRUCommont.podspec; sourceTree = "<group>"; };
+		6024C70EC01832B4FCAC0A6D /* TRUCommont.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TRUCommont.podspec; path = ../TRUCommont.podspec; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6FF599F4AB9D85A59BA49059 /* Pods-TRUCommont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRUCommont_Example.release.xcconfig"; path = "Target Support Files/Pods-TRUCommont_Example/Pods-TRUCommont_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C1DF34D10E6F7F943327C6 /* Pods-TRUCommont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRUCommont_Tests.release.xcconfig"; path = "Target Support Files/Pods-TRUCommont_Tests/Pods-TRUCommont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BE8D161B9BC4E56B5CC34A1 /* Pods-TRUCommont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRUCommont_Example.debug.xcconfig"; path = "Target Support Files/Pods-TRUCommont_Example/Pods-TRUCommont_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FC5D04388F885D5FB165ED12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FC5D04388F885D5FB165ED12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				23504960EE2D5DCBD92FF778 /* Pods-TRUCommont_Tests.debug.xcconfig */,
 				72C1DF34D10E6F7F943327C6 /* Pods-TRUCommont_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
